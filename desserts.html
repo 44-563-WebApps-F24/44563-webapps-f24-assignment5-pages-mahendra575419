@@ -7,6 +7,22 @@
   <title>DoorDash</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="desserts.html">Dessert Options</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="basic.html">Basic</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="advancved.html">Advanced</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
    <header>
     <h1>After dinner hosted by Mahendra Kumar</h1>
    </header>
@@ -137,5 +153,61 @@
             </div>
         </div>
     </div>
+    <form>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="dessert">Dessert</label>
+            <input type="text" class="form-control" id="dessert" placeholder="Enter your dessert">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="newsletter">
+            <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    </form>
+    <div class="container mt-2">
+        <div class="row">
+            <!-- First Card -->
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="vanishcake.jpeg" class="card-img-top" alt="vanish">
+                    <div class="card-body">
+                        <h5 class="card-title">Vanish cake dessert</h5>
+                        <p class="card-text">VAnish cake is the best dessrt made up of pineappple smashed cream.</p>
+                        <a href="https://www.food.com/recipe/hersheys-disappearing-cake-113964" class="btn btn-primary" target="_blank">Learn more</a>
+                    </div>
+                </div>
+            </div>
+      
+            <!-- Second Card -->
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="velvetsmashcake.jpeg" class="card-img-top" alt="velvet">
+                    <div class="card-body">
+                        <h5 class="card-title">velvetsmashcake Dessert</h5>
+                        <p class="card-text">A velvetsmashcake is the top dessert made up of red cherries.</p>
+                        <a href="https://www.reddit.com/r/Baking/comments/16jbscu/my_first_smash_cake_it_is_red_velvet_with_whipped/?rdt=33835" class="btn btn-primary" target="_blank">Learn more</a>
+                    </div>
+                </div>
+            </div>
+      
+            <!-- Third Card -->
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="rosecake.jpg" class="card-img-top" alt="rose">
+                    <div class="card-body">
+                        <h5 class="card-title">Rose cake dessert</h5>
+                        <p class="card-text">Rose cake is fine layer which is done with the rose petals.</p>
+                        <a href="https://sugargeekshow.com/recipe/rose-cake/" class="btn btn-primary" target="_blank">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      
 </body>
 </html>
